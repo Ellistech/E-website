@@ -1,7 +1,7 @@
 export default function HomePage() {
   return (
     <main>
-      <h1>devanshu chauhan</h1>
+      <h1>iam Home page</h1>
     </main>
     // <main class="main home">
     //   <div class="home-top-container">
@@ -76,5 +76,6 @@ export default function HomePage() {
     //       </ul>
     //     </div>
     //   </div>
+    // </main>
   );
 }

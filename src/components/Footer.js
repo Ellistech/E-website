@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <div>
-      <h1>Hello Devanshu</h1>
+      <h1>Iam Footer </h1>
     </div>
     // <footer id="footer">
     //   <div class="footer-top">
