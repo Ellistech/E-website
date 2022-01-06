@@ -3,7 +3,13 @@ import { useState } from "react";
 export default function TwoBox() {
   const [twobox, setTwoBox] = useState([
     {
-      image: "url('assets/images/products/product-banner1.jpg')",
+      image: "assets/images/products/product-banner1.jpg",
+      heading: "  ACTION <br/> CAMERAS",
+      price: "$399",
+      btn: "SHOP NOW",
+    },
+    {
+      image: "assets/images/products/product-banner2.jpg",
       heading: "  ACTION <br/> CAMERAS",
       price: "$399",
       btn: "SHOP NOW",
@@ -18,7 +24,8 @@ export default function TwoBox() {
               <div class="col-xl-6">
                 <div
                   class="banner-product bg-grey"
-                  style="background-image: url('assets/images/products/product-banner1.jpg');background-position : 54%;"
+                  // style={{backgroundImage:`url('')`;background-position : 54%;}}
+                  style={{ backgroundImage: `url(${item.image})` }}
                 >
                   <h2>
                     ACTION <br />
