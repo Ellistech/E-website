@@ -1,39 +1,46 @@
 import "./App.css";
+import axios from "axios";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Layout from "./components/Layout";
-import HomePage from "./components/HomePage";
-import FeaturedPage from "./components/FeaturedPage";
+// import FeaturedPage from "./components/FeaturedPage";
 import Category from "./components/Category";
-// import BrandPage from "./components/BrandPage";
+import BrandPage from "./components/BrandPage";
 import Shipping from "./components/Shipping";
-// import FourBox from "./components/FourBox";
-// import TwoBox from "./components/TwoBox";
+import MyAccountPage from "./components/MyAccountPage";
+import FourBox from "./components/FourBox";
+import TwoBox from "./components/TwoBox";
+import FormSideBar from "./components/FormSideBar";
+import HomePage from "./components/HomePage";
+// import ProductList from "./components/productList";
+import ProductListSideBAr from "./components/ProductListSideBar";
 
 function App() {
   const page = (
-    <Router>
-      <div>
-        <Routes>
+    <div>
+      {/* <Routes>
+          <Routes path="/" element={<HomePage />} />
+        </Routes> */}
+      {/* <Routes>
           <Route path="/Category" element={<Category />} />
-        </Routes>
-        <Routes>
-          <Route path="/homepage" element={<HomePage />} />
         </Routes>{" "}
         <Routes>
           <Route path="/Shipping" element={<Shipping />} />
         </Routes>{" "}
         <Routes>
-          <Route path="/featuredPage" element={<FeaturedPage />} />
-        </Routes>
-        {/* <HomePage />
-        <FeaturedPage />
-        <Category />
-        <Shipping />
-        <TwoBox />
-        <BrandPage />
-        <FourBox /> */}
-      </div>
-    </Router>
+          <Route path="/myaccountpage" element={<MyAccountPage />} />
+        </Routes> */}
+      <HomePage />
+      {/* <FeaturedPage /> */}
+      <Category />
+      <Shipping />
+      <TwoBox />
+      <BrandPage />
+      <FourBox />
+      <MyAccountPage />
+      {/* <FormSideBar /> */}
+      {/* <ProductList /> */}
+      {/* <ProductListSideBAr /> */}
+    </div>
   );
   return <Layout content={page} />;
 }

@@ -6,28 +6,28 @@ export default function FourBox() {
           class="owl-carousel owl-theme text-center"
           data-toggle="owl"
           data-owl-options="{
-                'loop' : false,
-                'nav': false,
-                'dots': true,
-                'margin': 20,
-                'autoHeight': true,
-                'autoplay': true,
-                'autoplayTimeout': 5000,
-                'responsive': {
-                  '0': {
-                    'items': 2
-                  },
-                  '570': {
-                    'items': 2
-                  },
-                  '830': {
-                    'items': 3
-                  },
-                  '1220': {
-                    'items': 4
-                  }
-                }
-            }"
+                        'loop' : false,
+                        'nav': false,
+                        'dots': true,
+                        'margin': 20,
+                        'autoHeight': true,
+                        'autoplay': true,
+                        'autoplayTimeout': 5000,
+                        'responsive': {
+                          '0': {
+                            'items': 2
+                          },
+                          '570': {
+                            'items': 2
+                          },
+                          '830': {
+                            'items': 3
+                          },
+                          '1220': {
+                            'items': 4
+                          }
+                        }
+                    }"
         >
           <div class="home-product-list">
             <img src="assets/images/products/small/product-white-1.jpg" />
