@@ -17,10 +17,11 @@ import ProductListSideBAr from "./components/ProductListSideBar";
 function App() {
   const page = (
     <div>
-      {/* <Routes>
+      <Router>
+        {/* <Routes>
           <Routes path="/" element={<HomePage />} />
         </Routes> */}
-      {/* <Routes>
+        <Routes>
           <Route path="/Category" element={<Category />} />
         </Routes>{" "}
         <Routes>
@@ -28,18 +29,19 @@ function App() {
         </Routes>{" "}
         <Routes>
           <Route path="/myaccountpage" element={<MyAccountPage />} />
-        </Routes> */}
-      <HomePage />
-      {/* <FeaturedPage /> */}
+        </Routes>
+        {/* <HomePage />
+      <FeaturedPage />
       <Category />
       <Shipping />
       <TwoBox />
       <BrandPage />
       <FourBox />
-      <MyAccountPage />
-      {/* <FormSideBar /> */}
+      <MyAccountPage /> */}
+        {/* <FormSideBar />
       {/* <ProductList /> */}
-      {/* <ProductListSideBAr /> */}
+        {/* <ProductListSideBAr /> */}
+      </Router>
     </div>
   );
   return <Layout content={page} />;
