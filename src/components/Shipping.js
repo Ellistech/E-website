@@ -25,18 +25,18 @@ export default function Shipping() {
     },
   ]);
   return (
-    <section class="bg-grey">
-      <div class="container">
-        <div class="row">
+    <section className="bg-grey">
+      <div className="container">
+        <div className="row">
           {shipping.map((item) => {
             return (
-              <div class="col-md-4">
-                <div class="info-box">
+              <div className="col-md-4">
+                <div className="info-box">
                   <i class={item.icon}></i>
 
-                  <div class="info-box-content">
-                    <h4 class="info-title">{item.title}</h4>
-                    <h4 class="info-subtitle">{item.subtitle}</h4>
+                  <div className="info-box-content">
+                    <h4 className="info-title">{item.title}</h4>
+                    <h4 className="info-subtitle">{item.subtitle}</h4>
                     <p>{item.description}</p>
                   </div>
                 </div>

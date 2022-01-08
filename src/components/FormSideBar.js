@@ -1,11 +1,11 @@
 export default function FormSideBar() {
   return (
-    <aside class="sidebar col-lg-3">
-      <div class="widget widget-dashboard">
-        <h3 class="widget-title">My Account</h3>
+    <aside className="sidebar col-lg-3">
+      <div className="widget widget-dashboard">
+        <h3 className="widget-title">My Account</h3>
 
-        <ul class="list">
-          <li class="active">
+        <ul className="list">
+          <li className="active">
             <a href="#">Account Dashboard</a>
           </li>
           <li>

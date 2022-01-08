@@ -29,9 +29,9 @@ export default function Category() {
   ]);
 
   return (
-    <section class="categories-container">
+    <section className="categories-container">
       <div
-        class="container categories-carousel owl-carousel owl-theme"
+        className="container categories-carousel owl-carousel owl-theme"
         data-toggle="owl"
         data-owl-options="{
             'loop' : false,
@@ -61,7 +61,7 @@ export default function Category() {
       >
         {category.map((item) => {
           return (
-            <div class="category">
+            <div className="category">
               <i class={item.icon}></i>
               <span>{item.title}</span>
             </div>

@@ -1,12 +1,14 @@
+import { Link } from "react-router-dom";
+
 export default function Header() {
   return (
-    <header class="header">
-      <div class="header-top">
-        <div class="container">
-          <div class="header-left header-dropdowns">
-            <div class="header-dropdown">
+    <header className="header">
+      <div className="header-top">
+        <div className="container">
+          <div className="header-left header-dropdowns">
+            <div className="header-dropdown">
               <a href="#">USD</a>
-              <div class="header-menu">
+              <div className="header-menu">
                 <ul>
                   <li>
                     <a href="#">EUR</a>
@@ -18,9 +20,9 @@ export default function Header() {
               </div>
             </div>
 
-            <div class="header-dropdown">
+            <div className="header-dropdown">
               <a href="#">ENGLISH</a>
-              <div class="header-menu">
+              <div className="header-menu">
                 <ul>
                   <li>
                     <a href="#">ENGLISH</a>
@@ -33,12 +35,12 @@ export default function Header() {
             </div>
           </div>
 
-          <div class="header-right">
-            <p class="welcome-msg">Default welcome msg! </p>
+          <div className="header-right">
+            <p className="welcome-msg">Default welcome msg! </p>
 
-            <div class="header-dropdown dropdown-expanded">
+            <div className="header-dropdown dropdown-expanded">
               <a href="#">Links</a>
-              <div class="header-menu">
+              <div className="header-menu">
                 <ul>
                   <li>
                     <a href="my-account.html">MY ACCOUNT </a>
@@ -56,7 +58,7 @@ export default function Header() {
                     <a href="contact.html">Contact</a>
                   </li>
                   <li>
-                    <a href="#" class="login-link">
+                    <a href="#" className="login-link">
                       LOG IN
                     </a>
                   </li>
@@ -67,33 +69,33 @@ export default function Header() {
         </div>
       </div>
 
-      <div class="header-middle">
-        <div class="container">
-          <div class="header-left">
-            <button class="mobile-menu-toggler" type="button">
-              <i class="icon-menu"></i>
+      <div className="header-middle">
+        <div className="container">
+          <div className="header-left">
+            <button className="mobile-menu-toggler" type="button">
+              <i className="icon-menu"></i>
             </button>
-            <a href="index.html" class="logo">
+            <Link to="/" className="logo">
               <img src="assets/images/logo.png" alt="Porto Logo" />
-            </a>
+            </Link>
           </div>
 
-          <div class="header-center">
-            <div class="header-search">
-              <a href="#" class="search-toggle" role="button">
-                <i class="icon-magnifier"></i>
+          <div className="header-center">
+            <div className="header-search">
+              <a href="#" className="search-toggle" role="button">
+                <i className="icon-magnifier"></i>
               </a>
               <form action="#" method="get">
-                <div class="header-search-wrapper">
+                <div className="header-search-wrapper">
                   <input
                     type="search"
-                    class="form-control"
+                    className="form-control"
                     name="q"
                     id="q"
                     placeholder="I'm searching for..."
                     required
                   />
-                  <div class="select-custom">
+                  <div className="select-custom">
                     <select id="cat" name="cat">
                       <option value="">All Categories</option>
                       <option value="4">Fashion</option>
@@ -116,97 +118,105 @@ export default function Header() {
                       <option value="57">- Auto Tools &amp; Supplies</option>
                     </select>
                   </div>
-                  <button class="btn" type="submit">
-                    <i class="icon-magnifier"></i>
+                  <button className="btn" type="submit">
+                    <i className="icon-magnifier"></i>
                   </button>
                 </div>
               </form>
             </div>
           </div>
 
-          <div class="header-right">
-            <a href="#" class="porto-icon">
-              <i class="icon icon-heart"></i>
+          <div className="header-right">
+            <a href="#" className="porto-icon">
+              <i className="icon icon-heart"></i>
             </a>
 
-            <div class="dropdown cart-dropdown">
+            <div className="dropdown cart-dropdown">
               <a
                 href="#"
-                class="dropdown-toggle"
+                className="dropdown-toggle"
                 role="button"
                 data-toggle="dropdown"
                 aria-haspopup="true"
                 aria-expanded="false"
                 data-display="static"
               >
-                <i class="minicart-icon"></i>
-                <span class="cart-count">2</span>
+                <i className="minicart-icon"></i>
+                <span className="cart-count">2</span>
               </a>
 
-              <div class="dropdown-menu">
-                <div class="dropdownmenu-wrapper">
-                  <div class="dropdown-cart-header">
+              <div className="dropdown-menu">
+                <div className="dropdownmenu-wrapper">
+                  <div className="dropdown-cart-header">
                     <span>2 Items</span>
 
                     <a href="cart.html">View Cart</a>
                   </div>
-                  <div class="dropdown-cart-products">
-                    <div class="product">
-                      <div class="product-details">
-                        <h4 class="product-title">
+                  <div className="dropdown-cart-products">
+                    <div className="product">
+                      <div className="product-details">
+                        <h4 className="product-title">
                           <a href="product.html">Woman Ring</a>
                         </h4>
 
-                        <span class="cart-product-info">
-                          <span class="cart-product-qty">1</span>x $99.00
+                        <span className="cart-product-info">
+                          <span className="cart-product-qty">1</span>x $99.00
                         </span>
                       </div>
 
-                      <figure class="product-image-container">
-                        <a href="product.html" class="product-image">
+                      <figure className="product-image-container">
+                        <a href="product.html" className="product-image">
                           <img
                             src="assets/images/products/cart/product-1.jpg"
                             alt="product"
                           />
                         </a>
-                        <a href="#" class="btn-remove" title="Remove Product">
-                          <i class="icon-retweet"></i>
+                        <a
+                          href="#"
+                          className="btn-remove"
+                          title="Remove Product"
+                        >
+                          <i className="icon-retweet"></i>
                         </a>
                       </figure>
                     </div>
 
-                    <div class="product">
-                      <div class="product-details">
-                        <h4 class="product-title">
+                    <div className="product">
+                      <div className="product-details">
+                        <h4 className="product-title">
                           <a href="product.html">Woman Necklace</a>
                         </h4>
 
-                        <span class="cart-product-info">
-                          <span class="cart-product-qty">1</span>x $35.00
+                        <span className="cart-product-info">
+                          <span className="cart-product-qty">1</span>x $35.00
                         </span>
                       </div>
 
-                      <figure class="product-image-container">
-                        <a href="product.html" class="product-image">
+                      <figure className="product-image-container">
+                        <a href="product.html" className="product-image">
                           <img
                             src="assets/images/products/cart/product-2.jpg"
                             alt="product"
                           />
                         </a>
-                        <a href="#" class="btn-remove" title="Remove Product">
-                          <i class="icon-retweet"></i>
+                        <a
+                          href="#"
+                          className="btn-remove"
+                          title="Remove Product"
+                        >
+                          <i className="icon-retweet"></i>
                         </a>
                       </figure>
                     </div>
                   </div>
-                  <div class="dropdown-cart-total">
+                  <div className="dropdown-cart-total">
                     <span>Total</span>
 
-                    <span class="cart-total-price">$134.00</span>
+                    <span className="cart-total-price">$134.00</span>
                   </div>
 
-                  <div class="dropdown-cart-action">
-                    <a href="checkout-shipping.html" class="btn btn-block">
+                  <div className="dropdown-cart-action">
+                    <a href="checkout-shipping.html" className="btn btn-block">
                       Checkout
                     </a>
                   </div>
@@ -217,32 +227,33 @@ export default function Header() {
         </div>
       </div>
 
-      <div class="header-bottom sticky-header">
-        <div class="container">
-          <nav class="main-nav">
-            <ul class="menu sf-arrows">
-              <li class="active">
-                <a href="index.html">Home</a>
+      <div className="header-bottom sticky-header">
+        <div className="container">
+          <nav className="main-nav">
+            <ul className="menu sf-arrows">
+              <li className="active">
+                <Link to="/">Home</Link>
               </li>
               <li>
-                <a href="category.html" class="sf-with-ul">
+                <Link to="/productlist" className="sf-with-ul">
                   Categories
-                </a>
-                <div class="megamenu megamenu-fixed-width">
-                  <div class="row">
-                    <div class="col-lg-8">
-                      <div class="row">
-                        <div class="col-lg-6">
-                          <div class="menu-title">
+                </Link>
+                <div className="megamenu megamenu-fixed-width">
+                  <div className="row">
+                    <div className="col-lg-8">
+                      <div className="row">
+                        <div className="col-lg-6">
+                          <div className="menu-title">
                             <a href="#">
-                              Variations 1<span class="tip tip-new">New!</span>
+                              Variations 1
+                              <span className="tip tip-new">New!</span>
                             </a>
                           </div>
                           <ul>
                             <li>
                               <a href="category.html">
                                 Fullwidth Banner
-                                <span class="tip tip-hot">Hot!</span>
+                                <span className="tip tip-hot">Hot!</span>
                               </a>
                             </li>
                             <li>
@@ -280,8 +291,8 @@ export default function Header() {
                             </li>
                           </ul>
                         </div>
-                        <div class="col-lg-6">
-                          <div class="menu-title">
+                        <div className="col-lg-6">
+                          <div className="menu-title">
                             <a href="#">Variations 2</a>
                           </div>
                           <ul>
@@ -301,7 +312,7 @@ export default function Header() {
                             <li>
                               <a href="category.html">
                                 4 Columns Products{" "}
-                                <span class="tip tip-new">New</span>
+                                <span className="tip tip-new">New</span>
                               </a>
                             </li>
                             <li>
@@ -328,8 +339,8 @@ export default function Header() {
                         </div>
                       </div>
                     </div>
-                    <div class="col-lg-4">
-                      <div class="banner">
+                    <div className="col-lg-4">
+                      <div className="banner">
                         <a href="#">
                           <img
                             src="assets/images/menu-banner-2.jpg"
@@ -341,16 +352,16 @@ export default function Header() {
                   </div>
                 </div>
               </li>
-              <li class="megamenu-container">
-                <a href="product.html" class="sf-with-ul">
+              <li className="megamenu-container">
+                <Link to="/productlist" className="sf-with-ul">
                   Products
-                </a>
-                <div class="megamenu">
-                  <div class="row">
-                    <div class="col-lg-8">
-                      <div class="row">
-                        <div class="col-lg-4">
-                          <div class="menu-title">
+                </Link>
+                <div className="megamenu">
+                  <div className="row">
+                    <div className="col-lg-8">
+                      <div className="row">
+                        <div className="col-lg-4">
+                          <div className="menu-title">
                             <a href="#">Variations</a>
                           </div>
                           <ul>
@@ -360,7 +371,7 @@ export default function Header() {
                             <li>
                               <a href="product-full-width.html">
                                 Vertical Thumbnails
-                                <span class="tip tip-hot">Hot!</span>
+                                <span className="tip tip-hot">Hot!</span>
                               </a>
                             </li>
                             <li>
@@ -378,8 +389,8 @@ export default function Header() {
                             </li>
                           </ul>
                         </div>
-                        <div class="col-lg-4">
-                          <div class="menu-title">
+                        <div className="col-lg-4">
+                          <div className="menu-title">
                             <a href="#">Variations</a>
                           </div>
                           <ul>
@@ -396,8 +407,8 @@ export default function Header() {
                             </li>
                           </ul>
                         </div>
-                        <div class="col-lg-4">
-                          <div class="menu-title">
+                        <div className="col-lg-4">
+                          <div className="menu-title">
                             <a href="#">Product Layout Types</a>
                           </div>
                           <ul>
@@ -422,7 +433,7 @@ export default function Header() {
                             <li>
                               <a href="product-sticky-both.html">
                                 Sticky Both Side Info
-                                <span class="tip tip-hot">Hot!</span>
+                                <span className="tip tip-hot">Hot!</span>
                               </a>
                             </li>
                             <li>
@@ -434,13 +445,13 @@ export default function Header() {
                         </div>
                       </div>
                     </div>
-                    <div class="col-lg-4">
-                      <div class="banner">
+                    <div className="col-lg-4">
+                      <div className="banner">
                         <a href="#">
                           <img
                             src="assets/images/menu-banner.jpg"
                             alt="Menu banner"
-                            class="product-promo"
+                            className="product-promo"
                           />
                         </a>
                       </div>
@@ -449,7 +460,7 @@ export default function Header() {
                 </div>
               </li>
               <li>
-                <a href="#" class="sf-with-ul">
+                <a href="#" className="sf-with-ul">
                   Pages
                 </a>
 
@@ -502,7 +513,7 @@ export default function Header() {
                     <a href="contact.html">Contact Us</a>
                   </li>
                   <li>
-                    <a href="#" class="login-link">
+                    <a href="#" className="login-link">
                       Login
                     </a>
                   </li>
@@ -512,7 +523,7 @@ export default function Header() {
                 </ul>
               </li>
               <li>
-                <a href="#" class="sf-with-ul">
+                <a href="#" className="sf-with-ul">
                   Features
                 </a>
                 <ul>
@@ -524,12 +535,12 @@ export default function Header() {
                   </li>
                 </ul>
               </li>
-              <li class="float-right buy-effect">
+              <li className="float-right buy-effect">
                 <a href="https://1.envato.market/DdLk5" target="_blank">
                   <span>buy Porto</span>
                 </a>
               </li>
-              <li class="float-right special-effect">
+              <li className="float-right special-effect">
                 <a href="#">Special Offer</a>
               </li>
             </ul>

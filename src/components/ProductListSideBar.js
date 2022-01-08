@@ -1,24 +1,24 @@
 export default function ProductListSideBAr() {
   return (
-    <aside class="sidebar-shop col-lg-3 order-lg-first">
-      <div class="sidebar-wrapper">
-        <div class="widget">
-          <h3 class="widget-title">
+    <aside className="sidebar-shop col-lg-3 order-lg-first">
+      <div className="sidebar-wrapper">
+        <div className="widget">
+          <h3 className="widget-title">
             <a
               data-toggle="collapse"
               href="#widget-body-1"
               role="button"
               aria-expanded="false"
               aria-controls="widget-body-1"
-              class="collapsed"
+              className="collapsed"
             >
               Women
             </a>
           </h3>
 
-          <div class="collapse hide" id="widget-body-1">
-            <div class="widget-body">
-              <ul class="cat-list">
+          <div className="collapse hide" id="widget-body-1">
+            <div className="widget-body">
+              <ul className="cat-list">
                 <li>
                   <a href="#">Accessories</a>
                 </li>
@@ -36,8 +36,8 @@ export default function ProductListSideBAr() {
           </div>
         </div>
 
-        <div class="widget">
-          <h3 class="widget-title">
+        <div className="widget">
+          <h3 className="widget-title">
             <a
               data-toggle="collapse"
               href="#widget-body-2"
@@ -49,9 +49,9 @@ export default function ProductListSideBAr() {
             </a>
           </h3>
 
-          <div class="collapse show" id="widget-body-2">
-            <div class="widget-body">
-              <ul class="cat-list">
+          <div className="collapse show" id="widget-body-2">
+            <div className="widget-body">
+              <ul className="cat-list">
                 <li>
                   <a href="#">Accessories</a>
                 </li>
@@ -69,8 +69,8 @@ export default function ProductListSideBAr() {
           </div>
         </div>
 
-        <div class="widget">
-          <h3 class="widget-title">
+        <div className="widget">
+          <h3 className="widget-title">
             <a
               data-toggle="collapse"
               href="#widget-body-3"
@@ -82,19 +82,19 @@ export default function ProductListSideBAr() {
             </a>
           </h3>
 
-          <div class="collapse show" id="widget-body-3">
-            <div class="widget-body">
+          <div className="collapse show" id="widget-body-3">
+            <div className="widget-body">
               <form action="#">
-                <div class="price-slider-wrapper">
+                <div className="price-slider-wrapper">
                   <div id="price-slider"></div>
                 </div>
-                <div class="filter-price-action">
-                  <div class="filter-price-text">
+                <div className="filter-price-action">
+                  <div className="filter-price-text">
                     Price:
                     <span id="filter-price-range"></span>
                   </div>
 
-                  <button type="submit" class="btn btn-primary">
+                  <button type="submit" className="btn btn-primary">
                     Filter
                   </button>
                 </div>
@@ -103,8 +103,8 @@ export default function ProductListSideBAr() {
           </div>
         </div>
 
-        <div class="widget">
-          <h3 class="widget-title">
+        <div className="widget">
+          <h3 className="widget-title">
             <a
               data-toggle="collapse"
               href="#widget-body-4"
@@ -116,9 +116,9 @@ export default function ProductListSideBAr() {
             </a>
           </h3>
 
-          <div class="collapse show" id="widget-body-4">
-            <div class="widget-body">
-              <ul class="cat-list">
+          <div className="collapse show" id="widget-body-4">
+            <div className="widget-body">
+              <ul className="cat-list">
                 <li>
                   <a href="#">Small</a>
                 </li>
@@ -136,8 +136,8 @@ export default function ProductListSideBAr() {
           </div>
         </div>
 
-        <div class="widget">
-          <h3 class="widget-title">
+        <div className="widget">
+          <h3 className="widget-title">
             <a
               data-toggle="collapse"
               href="#widget-body-5"
@@ -149,9 +149,9 @@ export default function ProductListSideBAr() {
             </a>
           </h3>
 
-          <div class="collapse show" id="widget-body-5">
-            <div class="widget-body">
-              <ul class="cat-list">
+          <div className="collapse show" id="widget-body-5">
+            <div className="widget-body">
+              <ul className="cat-list">
                 <li>
                   <a href="#">Adidas</a>
                 </li>
@@ -169,8 +169,8 @@ export default function ProductListSideBAr() {
           </div>
         </div>
 
-        <div class="widget">
-          <h3 class="widget-title">
+        <div className="widget">
+          <h3 className="widget-title">
             <a
               data-toggle="collapse"
               href="#widget-body-6"
@@ -182,14 +182,14 @@ export default function ProductListSideBAr() {
             </a>
           </h3>
 
-          <div class="collapse show" id="widget-body-6">
-            <div class="widget-body">
-              <ul class="config-swatch-list">
-                <li class="active">
+          <div className="collapse show" id="widget-body-6">
+            <div className="widget-body">
+              <ul className="config-swatch-list">
+                <li className="active">
                   <a href="#">
                     <span
-                      class="color-panel"
-                      style="background-color: #1645f3;"
+                      className="color-panel"
+                      style={{ backgroundColor: "#1645f3" }}
                     ></span>
                     <span>Blue</span>
                   </a>
@@ -197,8 +197,8 @@ export default function ProductListSideBAr() {
                 <li>
                   <a href="#">
                     <span
-                      class="color-panel"
-                      style="background-color: #f11010;"
+                      className="color-panel"
+                      style={{ backgroundColor: "#f11010" }}
                     ></span>
                     <span>Red</span>
                   </a>
@@ -206,8 +206,8 @@ export default function ProductListSideBAr() {
                 <li>
                   <a href="#">
                     <span
-                      class="color-panel"
-                      style="background-color: #fe8504;"
+                      className="color-panel"
+                      style={{ backgroundColor: "#fe8504" }}
                     ></span>
                     <span>Orange</span>
                   </a>
@@ -215,8 +215,8 @@ export default function ProductListSideBAr() {
                 <li>
                   <a href="#">
                     <span
-                      class="color-panel"
-                      style="background-color: #2da819;"
+                      className="color-panel"
+                      style={{ backgroundColor: "#2da819" }}
                     ></span>
                     <span>Green</span>
                   </a>

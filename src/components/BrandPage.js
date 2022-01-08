@@ -1,11 +1,11 @@
 export default function BrandPage() {
   return (
-    <section class="container mt-3 mb-7" id="topBrands">
-      <div class="section-title mb-5">
+    <section className="container mt-3 mb-7" id="topBrands">
+      <div className="section-title mb-5">
         <h4>Top Brands</h4>
       </div>
       <div
-        class="partners-carousel owl-carousel owl-theme text-center"
+        className="partners-carousel owl-carousel owl-theme text-center"
         data-toggle="owl"
         data-owl-options="{
             'loop' : true,

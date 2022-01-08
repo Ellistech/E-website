@@ -1,50 +1,34 @@
 import "./App.css";
-import axios from "axios";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Layout from "./components/Layout";
-// import FeaturedPage from "./components/FeaturedPage";
+import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import Category from "./components/Category";
-import BrandPage from "./components/BrandPage";
-import Shipping from "./components/Shipping";
 import MyAccountPage from "./components/MyAccountPage";
-import FourBox from "./components/FourBox";
-import TwoBox from "./components/TwoBox";
-import FormSideBar from "./components/FormSideBar";
 import HomePage from "./components/HomePage";
-// import ProductList from "./components/productList";
-import ProductListSideBAr from "./components/ProductListSideBar";
+import ProductList from "./components/productList";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
-function App() {
+function App(props) {
   const page = (
     <div>
       <Router>
-        {/* <Routes>
-          <Routes path="/" element={<HomePage />} />
-        </Routes> */}
+        <Header />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+        </Routes>
         <Routes>
           <Route path="/Category" element={<Category />} />
-        </Routes>{" "}
-        <Routes>
-          <Route path="/Shipping" element={<Shipping />} />
-        </Routes>{" "}
+        </Routes>
         <Routes>
           <Route path="/myaccountpage" element={<MyAccountPage />} />
         </Routes>
-        {/* <HomePage />
-      <FeaturedPage />
-      <Category />
-      <Shipping />
-      <TwoBox />
-      <BrandPage />
-      <FourBox />
-      <MyAccountPage /> */}
-        {/* <FormSideBar />
-      {/* <ProductList /> */}
-        {/* <ProductListSideBAr /> */}
+        <Routes>
+          <Route path="/productlist" element={<ProductList />} />
+        </Routes>
+        <Footer />
       </Router>
     </div>
   );
-  return <Layout content={page} />;
+  return page;
 }
 
 export default App;

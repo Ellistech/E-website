@@ -1,33 +1,33 @@
 export default function Footer() {
   return (
     <footer id="footer">
-      <div class="footer-top">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-3">
-              <a href="#" class="widget-newsletter-title">
+      <div className="footer-top">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-3">
+              <a href="#" className="widget-newsletter-title">
                 Sign Up to Newsletter
               </a>
             </div>
-            <div class="col-lg-4">
-              <p class="widget-newsletter-content">
+            <div className="col-lg-4">
+              <p className="widget-newsletter-content">
                 Get all the latest information on Events, Sales and Offers.
                 <br />
-                <span class="widget-newsletter-content">
+                <span className="widget-newsletter-content">
                   Receive $10 coupon for first shopping.
                 </span>
               </p>
             </div>
-            <div class="col-lg-5">
+            <div className="col-lg-5">
               <form action="#">
-                <div class="footer-submit-wrapper">
+                <div className="footer-submit-wrapper">
                   <input
                     type="email"
-                    class="form-control"
+                    className="form-control"
                     placeholder="Enter your Email address"
                     required
                   />
-                  <button type="submit" class="btn">
+                  <button type="submit" className="btn">
                     Subscribe
                   </button>
                 </div>
@@ -37,30 +37,30 @@ export default function Footer() {
         </div>
       </div>
 
-      <div class="container">
-        <div class="footer-middle   ">
-          <div class="row">
-            <div class="col-lg-6 col-md-6">
+      <div className="container">
+        <div className="footer-middle   ">
+          <div className="row">
+            <div className="col-lg-6 col-md-6">
               <a href="index.html">
                 <img
                   src="assets/images/logo-dark.png"
                   alt="Porto Logo"
-                  class="mt-2"
+                  className="mt-2"
                 />
               </a>
-              <div class="row">
-                <div class="col-sm-6 col-xl-4">
-                  <div class="contact-widget phone">
+              <div className="row">
+                <div className="col-sm-6 col-xl-4">
+                  <div className="contact-widget phone">
                     <div style={{ display: "inline-block" }}>
-                      <h4 class="widget-title">call us now</h4>
+                      <h4 className="widget-title">call us now</h4>
                       <a href="#">+123 5678 890</a>
                     </div>
                   </div>
                 </div>
-                <div class="col-sm-6 col-xl-4">
-                  <div class="contact-widget email">
+                <div className="col-sm-6 col-xl-4">
+                  <div className="contact-widget email">
                     <h4
-                      class="widget-title"
+                      className="widget-title"
                       style={{ "margin-bottom": ".5rem" }}
                     >
                       e-mail address
@@ -68,18 +68,18 @@ export default function Footer() {
                     <a href="mailto:mail@example.com">mail@domain.com</a>
                   </div>
                 </div>
-                <div class="col-xl-3">
-                  <div class="contact-widget follow">
-                    <h4 class="widget-title">follow us</h4>
-                    <div class="social-icons">
-                      <a href="#" class="social-icon" target="_blank">
-                        <i class="fab fa-facebook-f"></i>
+                <div className="col-xl-3">
+                  <div className="contact-widget follow">
+                    <h4 className="widget-title">follow us</h4>
+                    <div className="social-icons">
+                      <a href="#" className="social-icon" target="_blank">
+                        <i className="fab fa-facebook-f"></i>
                       </a>
-                      <a href="#" class="social-icon" target="_blank">
-                        <i class="fab fa-twitter"></i>
+                      <a href="#" className="social-icon" target="_blank">
+                        <i className="fab fa-twitter"></i>
                       </a>
-                      <a href="#" class="social-icon" target="_blank">
-                        <i class="fab fa-linkedin-in"></i>
+                      <a href="#" className="social-icon" target="_blank">
+                        <i className="fab fa-linkedin-in"></i>
                       </a>
                     </div>
                   </div>
@@ -87,12 +87,12 @@ export default function Footer() {
               </div>
             </div>
 
-            <div class="col-lg-6 col-md-6">
-              <div class="row">
-                <div class="col-sm-4">
-                  <div class="widget">
-                    <h4 class="widget-title">Categories</h4>
-                    <ul class="links">
+            <div className="col-lg-6 col-md-6">
+              <div className="row">
+                <div className="col-sm-4">
+                  <div className="widget">
+                    <h4 className="widget-title">Categories</h4>
+                    <ul className="links">
                       <li>
                         <a href="#">Fashion</a>
                       </li>
@@ -114,10 +114,10 @@ export default function Footer() {
                     </ul>
                   </div>
                 </div>
-                <div class="col-sm-4">
-                  <div class="widget">
-                    <h4 class="widget-title">About</h4>
-                    <ul class="links">
+                <div className="col-sm-4">
+                  <div className="widget">
+                    <h4 className="widget-title">About</h4>
+                    <ul className="links">
                       <li>
                         <a href="about.html">About Us</a>
                       </li>
@@ -136,10 +136,10 @@ export default function Footer() {
                     </ul>
                   </div>
                 </div>
-                <div class="col-sm-4">
-                  <div class="widget">
-                    <h4 class="widget-title">Customer Care</h4>
-                    <ul class="links">
+                <div className="col-sm-4">
+                  <div className="widget">
+                    <h4 className="widget-title">Customer Care</h4>
+                    <ul className="links">
                       <li>
                         <a href="my-account.html">My Account</a>
                       </li>
@@ -162,8 +162,8 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div class="footer-bottom">
-          <p class="footer-copyright">
+        <div className="footer-bottom">
+          <p className="footer-copyright">
             Porto eCommerce. &copy; 2020. All Rights Reserved
           </p>
           {/* <img
