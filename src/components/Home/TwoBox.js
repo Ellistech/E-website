@@ -25,7 +25,10 @@ export default function TwoBox() {
                 <div
                   className="banner-product bg-grey"
                   // style={{backgroundImage:`url('')`;background-position : 54%;}}
-                  style={{ backgroundImage: `url(${item.image})` }}
+                  style={{
+                    backgroundImage: `url(${item.image})`,
+                    backgroundPosition: "54%",
+                  }}
                 >
                   <h2>
                     ACTION <br />

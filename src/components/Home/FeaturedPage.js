@@ -44,7 +44,7 @@ export default function featuredPage() {
               </h2>
               <div className="ratings-container">
                 <div className="product-ratings">
-                  <span className="ratings" style="width:0%"></span>
+                  <span className="ratings" style={{ width: "0%" }}></span>
                   <span className="tooltiptext tooltip-top">0</span>
                 </div>
               </div>
@@ -92,7 +92,7 @@ export default function featuredPage() {
               </h2>
               <div className="ratings-container">
                 <div className="product-ratings">
-                  <span className="ratings" style="width:0%"></span>
+                  <span className="ratings" style={{ width: "0%" }}></span>
                   <span className="tooltiptext tooltip-top">0</span>
                 </div>
               </div>
@@ -140,7 +140,7 @@ export default function featuredPage() {
               </h2>
               <div className="ratings-container">
                 <div className="product-ratings">
-                  <span className="ratings" style="width:0%"></span>
+                  <span className="ratings" style={{ width: "0%" }}></span>
                   <span className="tooltiptext tooltip-top">0</span>
                 </div>
               </div>
@@ -188,7 +188,7 @@ export default function featuredPage() {
               </h2>
               <div className="ratings-container">
                 <div className="product-ratings">
-                  <span className="ratings" style="width:0%"></span>
+                  <span className="ratings" style={{ width: "0%" }}></span>
                   <span className="tooltiptext tooltip-top">0</span>
                 </div>
               </div>
@@ -236,7 +236,7 @@ export default function featuredPage() {
               </h2>
               <div className="ratings-container">
                 <div className="product-ratings">
-                  <span className="ratings" style="width:0%"></span>
+                  <span className="ratings" style={{ width: "0%" }}></span>
                   <span className="tooltiptext tooltip-top">0</span>
                 </div>
               </div>
@@ -284,7 +284,7 @@ export default function featuredPage() {
               </h2>
               <div className="ratings-container">
                 <div className="product-ratings">
-                  <span className="ratings" style="width:0%"></span>
+                  <span className="ratings" style={{ width: "0%" }}></span>
                   <span className="tooltiptext tooltip-top">0</span>
                 </div>
               </div>

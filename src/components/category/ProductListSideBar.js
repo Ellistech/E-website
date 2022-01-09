@@ -1,4 +1,4 @@
-export default function ProductListSideBAr() {
+export default function ProductListSideBar() {
   return (
     <aside className="sidebar-shop col-lg-3 order-lg-first">
       <div className="sidebar-wrapper">

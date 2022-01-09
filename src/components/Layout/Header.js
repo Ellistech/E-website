@@ -43,7 +43,7 @@ export default function Header() {
               <div className="header-menu">
                 <ul>
                   <li>
-                    <a href="my-account.html">MY ACCOUNT </a>
+                    <Link to="/myaccountpage">MY ACCOUNT </Link>
                   </li>
                   <li>
                     <a href="#">DAILY DEAL</a>
@@ -353,7 +353,7 @@ export default function Header() {
                 </div>
               </li>
               <li className="megamenu-container">
-                <Link to="/productlist" className="sf-with-ul">
+                <Link to="/productpage" className="sf-with-ul">
                   Products
                 </Link>
                 <div className="megamenu">
@@ -466,21 +466,19 @@ export default function Header() {
 
                 <ul>
                   <li>
-                    <a href="cart.html">Shopping Cart</a>
+                    <Link to="/shopingcart">Shopping Cart</Link>
                   </li>
                   <li>
                     <a href="#">Checkout</a>
                     <ul>
                       <li>
-                        <a href="checkout-shipping.html">Checkout Shipping</a>
+                        <Link to="/checkoutshipping1">Checkout Shipping</Link>
                       </li>
                       <li>
-                        <a href="checkout-shipping-2.html">
-                          Checkout Shipping 2
-                        </a>
+                        <Link to="/checkoutshipping2">Checkout Shipping 2</Link>
                       </li>
                       <li>
-                        <a href="checkout-review.html">Checkout Review</a>
+                        <Link to="/checkoutreview">Checkout Review</Link>
                       </li>
                     </ul>
                   </li>
@@ -488,15 +486,15 @@ export default function Header() {
                     <a href="#">Dashboard</a>
                     <ul>
                       <li>
-                        <a href="dashboard.html">Dashboard</a>
+                        <Link to="/Dashboard">Dashboard</Link>
                       </li>
                       <li>
-                        <a href="my-account.html">My Account</a>
+                        <Link to="/myaccountpage">My Account</Link>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <a href="about.html">About Us</a>
+                    <Link to="/about">About Us</Link>
                   </li>
                   <li>
                     <a href="#">Blog</a>
