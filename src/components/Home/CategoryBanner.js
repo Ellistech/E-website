@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function Category() {
+export default function CategoryBanner() {
   const [category, setCategory] = useState([
     {
       icon: "icon-category-fashion",

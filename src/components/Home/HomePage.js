@@ -8,6 +8,7 @@ import ShippingBanner from "./ShippingBanner";
 import BrandPage from "./BrandPage";
 import FeaturedProduct from "./FeaturedProduct";
 
+
 export default function HomePage() {
   return (
     <react.Fragment>
@@ -95,7 +96,7 @@ export default function HomePage() {
       </main>
       <FeaturedPage />
       <CategoryBanner />
-      <TwoBox />
+      <TwoBox /> 
       <NewArrival />
       <SpecialOffer />
       <BrandPage />

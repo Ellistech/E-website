@@ -1,10 +1,11 @@
 import react from "react";
+import { Link } from "react-router-dom";
 import ProductListSideBar from "./ProductListSideBar";
-export default function ProductList() {
+export default function ProductMenu() {
   return (
     <react.Fragment>
       <div
-        class="banner banner-cat"
+        class="banner banner-cat"                   
         style={{
           backgroundImage: "url('assets/images/banners/banner.jpg')",
         }}
@@ -74,20 +75,20 @@ export default function ProductList() {
                 </div>
 
                 <div className="layout-modes">
-                  <a
-                    href="category.html"
+                  <Link
+                    to="/productgrid"
                     className="layout-btn btn-grid active"
                     title="Grid"
                   >
                     <i className="icon-mode-grid"></i>
-                  </a>
-                  <a
-                    href="category-list.html"
+                  </Link>
+                  <Link
+                    to="/productlist"
                     className="layout-btn btn-list"
                     title="List"
                   >
                     <i className="icon-mode-list"></i>
-                  </a>
+                  </Link>
                 </div>
               </nav>
               <div className="row row-sm">
