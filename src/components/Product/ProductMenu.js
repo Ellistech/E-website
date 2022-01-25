@@ -1,5 +1,4 @@
 import react from "react";
-import { Link } from "react-router-dom";
 import ProductListSideBar from "./ProductListSideBar";
 export default function ProductMenu() {
   return (
@@ -69,26 +68,27 @@ export default function ProductMenu() {
                     </a>
                   </div>
                 </div>
-
                 <div className="toolbox-item toolbox-show">
                   <label>Showing 1–9 of 60 results</label>
                 </div>
 
                 <div className="layout-modes">
-                  <Link
-                    to="/productgrid"
+                  <a
+                    // href="category.html"
+                    href="javascript:void(0)"
                     className="layout-btn btn-grid active"
                     title="Grid"
                   >
                     <i className="icon-mode-grid"></i>
-                  </Link>
-                  <Link
-                    to="/productlist"
+                  </a>
+                  <a
+                    // href="category-list.html"
+                    href="javascript:void(0)"
                     className="layout-btn btn-list"
                     title="List"
                   >
                     <i className="icon-mode-list"></i>
-                  </Link>
+                  </a>
                 </div>
               </nav>
               <div className="row row-sm">

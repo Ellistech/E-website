@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 
+
 export default function Header() {
   return (
     <header className="header">
@@ -52,13 +53,13 @@ export default function Header() {
                     <a href="#">MY WISHLIST </a>
                   </li>
                   <li>
-                    <a href="blog.html">BLOG</a>
+                    <Link to="/blog">BLOG</Link>
                   </li>
                   <li>
-                    <a href="contact.html">Contact</a>
+                    <Link to="/contact">Contact</Link>
                   </li>
                   <li>
-                    <a href="#" className="login-link">
+                    <a to="#" className="login-link">
                       LOG IN
                     </a>
                   </li>
@@ -216,9 +217,9 @@ export default function Header() {
                   </div>
 
                   <div className="dropdown-cart-action">
-                    <a href="checkout-shipping.html" className="btn btn-block">
+                    <Link to="/checkoutshipping1" className="btn btn-block">
                       Checkout
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -380,18 +381,18 @@ export default function Header() {
                     <Link to="/about">About Us</Link>
                   </li>
                   <li>
-                    <a href="#">Blog</a>
+                    <a to="blog.html">Blog</a>
                     <ul>
                       <li>
-                        <a href="blog.html">Blog</a>
+                        <Link to="/blog">Blog</Link>
                       </li>
                       <li>
-                        <a href="single.html">Blog Post</a>
+                        <Link to="/blogpost">Blog Post</Link>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <a href="contact.html">Contact Us</a>
+                    <Link to="/contact">Contact Us</Link>
                   </li>
                   <li>
                     <a href="#" className="login-link">
