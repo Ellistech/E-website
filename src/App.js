@@ -1,4 +1,4 @@
- import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import HomePage from "./components/Home/HomePage";
 import CategoryBanner from "./components/Home/CategoryBanner";
 import MyAccountPage from "./components/AccountPage/MyAccountPage";
@@ -14,6 +14,7 @@ import Blog from "./components/Pages/Blog";
 import BlogPost from "./components/Pages/BlogPost";
 import Contact from "./components/Pages/Contact";
 import ProductMenu from "./components/Product/ProductMenu";
+import ProductGridItem from "./components/Product/ProductGridItem";
 
 
 function App() {
@@ -32,12 +33,14 @@ function App() {
 
           <Route path="/shopingcart" element={<ShopingCart />} />
 
+          <Route path="/productgriditem" element={<ProductGridItem/>} />
+
           <Route path="/blog" element={<Blog/>} />
           
           <Route path="/blogpost" element={<BlogPost/>} />
 
           <Route path="/contact" element={<Contact/>} />
-r
+
           <Route path="/checkoutshipping1" element={<CheckoutShipping1 />} />
 
           <Route path="/checkoutshipping2" element={<CheckoutShipping2 />} />
@@ -47,8 +50,7 @@ r
           <Route path="/Dashboard" element={<Dashboard />} />
 
           <Route path="/about" element={<About />} />
-
-          
+        
 
         </Routes>
         <Footer />
